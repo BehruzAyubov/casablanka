@@ -1,0 +1,191 @@
+/*contact section*/
+
+#contact{
+	height: 1000px;
+	position: relative;
+
+}
+.contact__container{
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    padding: 120px 0;
+}
+.contact__title{
+	text-transform: uppercase;
+	font-size: 30px;
+	position: relative;
+	text-align: center;
+}
+.contact__title:before{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -74px;
+    width: 90px;
+    height: 3px;
+    background: black;
+    transform:translateX(-45px);
+}
+.contact__paragraph{
+	margin-top: 160px;
+	width: 100%;
+	max-width: 770px;
+	font-size: 22px;
+	text-align: center;
+}
+
+.contact-location{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 35%;
+	height: 500px;
+	background-color: #f2f2f2;
+	display: flex;
+	flex-direction: column;
+}
+.contact-location__wrapper{
+	height: 260px;
+	width: 100%;
+	max-width: 235px;
+	margin: 120px 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.contact-location__title{
+	font-size: 24px;
+	color: black;
+	text-transform: uppercase;
+}
+.contact-location__adress{
+	line-height: 30px;
+	font-size: 22px;
+}
+.social__icons{
+	font-size: 30px;
+}
+.fa{
+	text-decoration: none;
+	color: black;
+}
+.social__icons{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.contact__form{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 65%;
+	height: 500px;	
+	background-color: #e4e4e4;
+  	display: flex;
+  	align-items: center;
+}
+
+.contact__wrapper{
+	width: 100%;
+	max-width: 670px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-left: 100px;
+}
+.contact__input{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.contact__name{
+	width: 30%;
+	height: 50px;
+	color: #676767;
+	padding: 0 30px;
+	background-color: transparent;
+	border:none;
+	border-bottom: 3px solid #afafaf;
+	font-size: 18px;
+	font-style: italic;
+	outline: none;
+}
+.contact__message{
+	width: 100%;
+	height: 50px;
+	color: #676767;
+	padding: 0 30px;
+	background-color: transparent;
+	border:none;
+	border-bottom: 3px solid #afafaf;
+	font-size: 18px;
+	font-style: italic;
+	outline: none;
+  	box-sizing: border-box;
+}
+.contact__button{
+	width:180px; 
+	height:60px;
+	background-color: transparent;
+	border:none;
+	cursor: pointer;
+	border:4px solid black;
+	font-size: 24px;
+	color: black;
+	align-self: flex-end;
+    margin-left: auto;
+    transition: ease-in 0.5s;
+}
+.contact__button:hover{
+    background-color:black;
+    color: white;
+    border: none;
+    transform: scale(1.2);
+}
+
+@media only screen and (max-width: 1230px){
+    .contact__wrapper{
+        padding-right: 50px;
+
+    }
+    .contact-location__wrapper{
+        margin-left: 50px;
+    }
+}
+@media only screen and (max-width: 768px){
+	#contact{
+		height: auto;
+	}
+	.contact__location{
+		margin-top: 50px;
+		margin-left: 0;
+		width: 100%;
+		position: relative;
+		align-items: center;
+
+	}
+	.contact__form{
+		width: 100%;
+		position: relative;
+	}
+	.contact__wrapper{
+		margin: 0px;
+		padding: 20px;
+	}
+	.contact__input{
+		flex-direction: column;
+	}
+	.contact__name{
+		width: 100%;
+	}
+	.contact__button{
+		width: 100%;
+		margin-top: 20px;
+	}
+	}
+	
+	
+

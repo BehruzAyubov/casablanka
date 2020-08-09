@@ -1,0 +1,30 @@
+/* quote section */
+
+#quote{
+	height: 500px;
+	background:rgb(230,149,75) url('../image/quote/laptop.png');
+	background-size: cover;
+	background-position: bottom;
+}
+.quote__container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 200px 0px 200px 0px;
+}
+.quote__button{
+	font-size: 30px;
+	height: 100px;
+	width: 430px;
+	color: white;
+	background-color: transparent;
+	border:3px solid white;
+    cursor: pointer;
+    transition: ease-in 0.5s;
+}
+.quote__button:hover{
+    background-color:black;
+    color: white;
+    border: none;
+    transform: scale(1.2);
+}

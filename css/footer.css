@@ -1,0 +1,42 @@
+
+
+
+
+
+
+#footer{
+	height: auto;
+	background-color: #222222;
+}
+.footer__container{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 100px;
+	margin-bottom: 50px;
+}
+
+.footer__text{
+	margin-top: 70px;
+	font-size: 16px;
+	color: #e4e4e4;
+}
+.footer__text_active{
+	color: #d87843;
+}
+.footer__logo{
+	width: 100%;
+	max-width: 500px;
+	height: auto;
+}
+
+
+@media only screen and (max-width: 768px){
+	.footer__container{
+		margin-top: 40px;
+	}
+	#footer{
+		height: auto;
+		background-color: #222222;
+	}
+}

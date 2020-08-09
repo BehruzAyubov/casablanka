@@ -1,0 +1,30 @@
+/*creativity section*/
+
+#creativity{
+	height: 500px;
+	background-color: black;
+	background-image: url('../image/creativity/laptop.png');
+	background-size: cover;
+	background-position: center;
+}
+.creativity__container{
+	display: flex;
+	justify-content: center;
+	padding:200px 0px 200px 0px;
+}
+.creativity__button{
+	font-size: 30px;
+	height: 100px;
+	width: 430px;
+	color: white;
+	background-color: transparent;
+	border:3px solid white;
+    cursor: pointer;
+    transition: 1s;
+}
+.creativity__button:hover{
+    background-color:rgb(230,149,75);
+    color: white;
+    border: none;
+    transform: scale(1.2);
+}

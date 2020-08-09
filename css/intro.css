@@ -1,0 +1,32 @@
+/*introduction section*/
+
+#introduction{
+	height: 500px;
+}
+.introduction__container{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.container__text{
+	margin:120px 0px 124px 0px;
+}
+.introduction__title{
+	text-transform: uppercase;
+	font-size: 30px;
+	position: relative;
+}
+.introduction__title:before{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -74px;
+    width: 90px;
+    height: 3px;
+    background: black;
+    transform:translateX(-45px);
+}
+.introduction__paragraph{
+	margin-top: 150px;
+	font-size: 22px;
+}

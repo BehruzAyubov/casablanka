@@ -1,0 +1,30 @@
+
+/*help section*/
+
+#help{
+	height: 500px;
+	background-color: black;
+	background-image: url('../image/help/hand.png');
+	background-size: cover;
+	background-position: center;
+}
+.help__container{
+	display: flex;
+	justify-content: center;
+	padding: 200px 0px 200px 0px;
+}
+.help__button{
+	font-size: 30px;
+	height: 100px;
+	width: 430px;
+	color: white;
+	background-color: transparent;
+	border:3px solid white;
+    cursor: pointer;
+    transition: 1s;
+}
+.help__button:hover{
+    background-color:rgb(230,149,75);
+    border: none;
+    transform: scale(1.2);
+}

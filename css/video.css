@@ -1,0 +1,13 @@
+
+/*video section*/
+
+#video{
+    height: 500px;
+    background-color: black;	
+}
+.video__container{
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

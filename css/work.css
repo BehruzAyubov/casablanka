@@ -1,0 +1,153 @@
+/*work section*/
+
+#work{
+	height: auto;
+}
+.work__container{
+	max-width: 1170px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 120px 0;
+}
+.work__title{
+	text-transform: uppercase;
+	font-size: 30px;
+	position: relative;
+	text-align: center;
+}
+.work__title:before{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -74px;
+    width: 90px;
+    height: 3px;
+    background: black;
+    transform:translateX(-45px);
+}
+.work__types{
+	margin-top: 155px;
+	width: 100%;
+	max-width: 655px;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+}
+.work__link{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+	border-bottom: 2px solid transparent;
+	transition: ease-in 0.5s;
+}
+.work__link:hover{
+	 border-bottom:2px solid rgb(230,149,75);
+	
+}
+.work__link_active{
+	font-weight: bold;
+}
+.work-sample{
+	width: 100%;
+	height:auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;	
+}
+.work-sample__item{
+	position: relative;
+	margin-bottom: 20px;
+	width: 370px; 
+	height: 420px;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 0.5s;
+	background-color: black;
+}
+.work-sample__item::before{
+	visibility: hidden;
+	content: "";
+	position: absolute;
+	left:0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	background-color: rgb(0,0,0,0.5);
+}
+.work-sample__text{
+	display: none;
+}
+.work-sample__item:hover{
+	background: rgb(230,149,75);
+}
+.work-sample__item:hover> .work-sample__text{
+	display: block;
+}
+.work-sample__title{
+	text-transform: uppercase;
+	font-size: 18px;
+	color: white;
+	
+}
+.work-sample__prg{
+	font-size: 24px;
+}
+.work-sample__first{
+	background-image: url('../image/work/pancake.png');
+}
+.work-sample__second{
+	background-image: url('../image/work/ocean.png');
+}
+.work-sample__third{
+	background-image: url('../image/work/mobile.png');
+}
+.work-sample__four{
+	background-image: url('../image/work/portico.png');
+}
+.work-sample__five{
+	background-image: url('../image/work/slash.png');
+}
+
+.work-sample__six{
+	background-image: url('../image/work/salt.png');
+}
+.work__image{
+	background-position: center center;
+	background-attachment: fixed;
+	height: auto;
+}
+.work__button{
+	width: 100%;
+	max-width: 370px;
+	height: 60px;
+	font-size: 24px; 
+	color: black;
+	background-color: transparent;
+	border:3px solid black;
+	cursor: pointer;
+	transition: ease-in 0.5s;
+}
+.work__button:hover{
+    background-color:rgb(230,149,75);
+    color: white;
+    border: none;
+    transform: scale(1.2);
+}
+@media only screen and (max-width:850px){
+	.work-sample{
+		justify-content: center;
+	}
+	.work__types{
+		flex-wrap: wrap;
+	    }
+	}
+
+	
+	

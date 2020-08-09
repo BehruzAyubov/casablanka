@@ -1,0 +1,109 @@
+/*team section*/
+
+#team{
+	height: 900px;
+}
+.team__container{
+	display: flex;
+	flex-direction: column;
+	padding: 120px 0px 80px 0px;
+}
+.team__header{
+	text-align: center;
+}
+.team__title{
+	text-transform: uppercase;
+	font-size: 30px;
+	position: relative;
+	text-align: center;
+}
+.team__title:before{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -74px;
+    width: 90px;
+    height: 3px;
+    background: black;
+    transform:translateX(-45px);
+}
+.team__paragraph{
+	margin-top: 155px;
+}
+.team-members{
+	display: flex;
+	justify-content: space-between;
+	margin-top:75px;
+}
+.team-members__item{
+	width:270px; 
+	height:360px;
+	background-color: #e9e9e9;
+	filter: grayscale(100%);
+}
+.team-members__member1{
+	background-image: url('../image/team/member1.png');
+	background-position: center;
+}
+.team-members__member2{
+	background-image: url('../image/team/member2.png');
+	background-position: center;
+}
+.team-members__member3{
+	background-image: url('../image/team/member3.png');
+	background-position: center;
+}
+.team-members__img{
+	width: 100%;
+	background-size: cover;
+}
+.team-members__apply{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	border:2px solid black;
+}
+.team-members__info{
+	text-transform: uppercase;
+	font-size: 30px;
+	position: relative;
+	text-align: center;
+}
+.team-members__info:before{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -45px;
+    width: 87px;
+    height: 3px;
+    background: black;
+    transform:translateX(-45px);
+}
+.team-members__button{
+	margin-top: 87px;
+	width: 180px;
+	height: 60px;
+	color:black;
+	font-size: 24px;
+	border:3px solid black;
+    background-color: transparent;
+    cursor: pointer;
+    transition:  ease-in 0.5s;
+}
+.team-members__button:hover{
+    transform: scale(1.2);
+}
+@media only screen and (max-width: 768px){
+	.team__members{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.team-members__item{
+		margin: 20px;
+	}
+	#team{
+		height: auto;
+	}
+}
